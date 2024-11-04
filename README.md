@@ -22,7 +22,7 @@ A simple and secure password generator extension that helps you create strong, r
 
 ---
 
-#💻 Technologies Used
+# 💻 Technologies Used
 
 HTML
 
