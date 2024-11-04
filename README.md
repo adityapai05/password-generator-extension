@@ -99,20 +99,20 @@ Currently, this extension is not available on the Chrome Web Store. Publishing e
 
 ---
 
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome! If you have suggestions for improvements or new features, please feel free to create a pull request or open an issue.
 
 
 ---
 
-📜 License
+# 📜 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-📬 Contact
+# 📬 Contact
 
 For any inquiries, please reach out to me at adityapai.main@gmail.com
 
