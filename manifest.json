@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Password Generator",
+  "version": "1.0",
+  "description": "A simple yet powerful Chrome extension that generates secure, customizable passwords with a single click. Features include adjustable length and options to include uppercase, lowercase, numbers, and symbols. Easily copy the generated password to your clipboard and use it directly on any website. Enhance your security and streamline password management!",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": ["clipboardWrite", "activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
